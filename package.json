@@ -1,0 +1,17 @@
+{
+  "name": "presenca_nt_aplicativo",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "Aplicativo desenvolvido para automatizar o processo de presenças",
+  "main": "main.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"electron ."
+  },
+  "author": "Paulo Henrique de Farias Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.4.2",
+    "electron": "^27.0.3"
+  }
+}

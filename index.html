@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSV Compiler</title>
+</head>
+<body>
+  <h1>CSV Compiler</h1>
+  <label for="period">Período:</label>
+  <select id="period">
+    <option value="manhã">Manhã</option>
+    <option value="tarde">Tarde</option>
+  </select>
+  <br>
+  <label for="days">Dias:</label>
+  <input type="date" id="days">
+  <button id="addDayButton">Adicionar outro dia</button>
+  <button id="registerButton">Cadastrar</button>
+  <br>
+  <div id="dayButtons"></div>
+  <div id="csvFileInput">
+    <label for="csvFile">Carregar formulários CSV:</label>
+    <input type="file" id="csvFile" accept=".csv" multiple>
+  </div>
+  <button id="compileButton">Compilar</button>
+  <script type="module" src="renderer.js"></script>
+</body>
+</html>
